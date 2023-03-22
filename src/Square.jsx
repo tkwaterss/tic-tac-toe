@@ -1,12 +1,8 @@
 import React from "react";
 
 const Square = (props) => {
-    const {data} = props
-    return(
-        <div className="square">
-            {data}
-        </div>
-    )
-}
+  const { player, squares } = props;
+  console.log(player, squares);
+};
 
 export default Square;
