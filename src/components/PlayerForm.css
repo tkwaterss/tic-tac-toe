@@ -1,0 +1,25 @@
+.player-form {
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-container {
+    width: 100%;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.form-input {
+    background-color: #c1f1ff;
+    padding: 5px;
+    border-radius: 5px;
+    border: solid #00c8ff;
+}
+
+.form-button {
+    width: 50%;
+    margin-top: 20px;
+    padding: 5px;
+}

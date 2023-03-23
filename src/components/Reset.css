@@ -1,0 +1,13 @@
+.reset {
+    padding: 10px 25px;
+    background-color: #c1f1ff;
+    border: solid #00c5fc;
+    border-radius: 15px;
+    font-weight: 600;
+
+}
+.reset:hover {
+    background-color: #61dafb;
+    border: solid rgb(255, 0, 179);
+    cursor: pointer;
+}
