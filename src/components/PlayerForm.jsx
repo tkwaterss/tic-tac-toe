@@ -14,9 +14,11 @@ const PlayerForm = (props) => {
 
   const submitHandler = (event) => {
     event.preventDefault();
+    let players = [playerOne, playerTwo];
     //on submit add class that removes JSX and insert button to add new players
-    props.addPlayers(playerOne, playerTwo);
+    props.addPlayers(players);
 
+    props.stopEditing(false);
     setPlayerOne("");
     setPlayerTwo("");
   };
